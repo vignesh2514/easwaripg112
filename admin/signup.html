@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from mdbootstrap.com/live/_MDB/templates/Admin/signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2017 07:16:45 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Material Design Bootstrap</title>
+
+    <!-- Meta OG -->
+    <meta property="og:title" content="Minimalistic Sign Up form for Material Admin Dashboard">
+
+    <meta property="og:url" content="login.html">
+    <meta property="og:site_name" content="mdbootstrap.com">
+    <!-- /Meta OG -->
+
+    <!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="Simple, yet efficient sign up for for all the purpose you can imagine." />
+	<meta name="twitter:title" content="Minimalistic Sign Up form for Material Admin Dashboard" />
+	<meta name="twitter:site" content="@MDBootstrap" />
+	<meta name="twitter:image" content="../../../../img/Live/MDB/admin-login.jpg" />
+	<meta name="twitter:creator" content="@MDBootstrap" />
+	<!-- /Twitter Card -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome2.min.css">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="fixed-sn elegant-white-skin">
+
+    
+    <!-- /.Customizer -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-5 login-form mx-auto float-xs-none">
+
+                <!--Form with header-->
+                <div class="card">
+                    <div class="card-block">
+
+                        <!--Header-->
+                        <div class="form-header">
+                            <h3><i class="fa fa-lock"></i> Signup:</h3>
+                        </div>
+
+                        <!--Body-->
+                        <div class="md-form">
+                            <i class="fa fa-user prefix"></i>
+                            <input type="text" id="form1" class="form-control">
+                            <label for="form1">First name</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-user prefix"></i>
+                            <input type="text" id="form2" class="form-control">
+                            <label for="form2">Last name</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix"></i>
+                            <input type="text" id="form3" class="form-control">
+                            <label for="form2">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-lock prefix"></i>
+                            <input type="password" id="form4" class="form-control">
+                            <label for="form4">Your password</label>
+                        </div>
+
+                        <div class="text-xs-center">
+                            <button class="btn btn-primary">Sign up</button>
+                        </div>
+
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer text-xs-center">
+                        Or login with <button type="button" class="btn btn-gplus"><i class="fa fa-google left"></i> Google</button>
+                    </div>
+
+                </div>
+                <!--/Form with header-->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript">
+
+    // show/hide customizer
+    $('#toggle').click(function(e) {
+        e.preventDefault();
+        $('#customizer').toggleClass('visible');
+    });
+
+    // change skin
+    $('a[data-skin]').on('click', function(e) {
+        e.preventDefault();
+
+        // remove old class
+        document.body.className = document.body.className.replace(/(?:(\w+)-?)(\w+)-(skin)/g,"");
+
+        // add new class
+        $('body').addClass($(this).attr("data-skin") + '-skin');
+
+        // trigger toggle button
+        $('#toggle').trigger('click');
+    });
+
+    </script>
+
+</body>
+
+
+<!-- Mirrored from mdbootstrap.com/live/_MDB/templates/Admin/signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2017 07:16:46 GMT -->
+</html>

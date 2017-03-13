@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from mdbootstrap.com/live/_MDB/templates/Admin/invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2017 07:16:53 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Material Design Bootstrap</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome2.min.css">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <body class="fixed-sn elegant-white-skin">
+
+        <!--Double Navigation-->
+        <header>
+
+            <!-- Sidebar navigation -->
+            <ul id="slide-out" class="side-nav fixed custom-scrollbar">
+
+                <!-- Logo -->
+                <li>
+                    <div class="user-box">
+                        <img src="../../../../img/Photos/Avatars/img%20(20).jpg" class="img-fluid rounded-circle">
+                        <p class="user text-xs-center">Jane Doe</p>
+                    </div>
+                </li>
+                <!--/. Logo -->
+
+                <!-- Side navigation links -->
+                <li>
+                    <ul class="collapsible collapsible-accordion">
+                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-code"></i> Dashboards<i class="fa fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="home.html" class="waves-effect">Dahboard v1</a>
+                                    </li>
+                                    <li><a href="home%20v2.html" class="waves-effect">Dahboard v2</a>
+                                    </li>
+                                    <li><a href="home%20v3.html" class="waves-effect">Dahboard v3</a>
+                                    </li>
+                                </ul>
+                            </div></li>
+                        <li><a href="analytics.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-pie-chart"></i> Analytics</a>
+                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-code"></i> Creators<i class="fa fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="modals.html" class="waves-effect">Modals</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-lock"></i> Forms<i class="fa fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="signup.html" class="waves-effect">Sign up</a>
+                                    </li>
+                                    <li><a href="signup%20v2.html" class="waves-effect">Sign up v2</a>
+                                    </li>
+                                    <li><a href="login.html" class="waves-effect">Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="clients.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-users"></i> Clients</a>
+                        <li><a href="invoice.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-money"></i> Invoice</a>
+                        <li><a href="support.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-support"></i> Support</a>
+                    </ul>
+                </li>
+                <!--/. Side navigation links -->
+
+            </ul>
+            <!--/. Sidebar navigation -->
+
+            </ul>
+            <!--/. Sidebar navigation -->
+
+            <!--Navbar-->
+            <nav class="navbar navbar-fixed-top scrolling-navbar double-nav">
+
+                <!-- SideNav slide-out button -->
+                <div class="pull-left">
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+                </div>
+
+                <!-- Breadcrumb-->
+                <div class="breadcrumb-dn">
+                    <p>MDB Admin</p>
+                </div>
+
+
+                <ul class="nav navbar-nav pull-right">
+
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa fa-envelope"></i> <span class="hidden-sm-down">Contact</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="tag red">99</span> <i class="fa fa-bell"></i></a>
+                        <div class="dropdown-menu dropdown-primary header-notifications" aria-labelledby="dropdownMenu1" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                            <ul>
+                                <li><i class="fa fa-user" aria-hidden="true"></i> New order received <span class="float-xs-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 13 min</span></li>
+                                <li><i class="fa fa-user" aria-hidden="true"></i> New order received <span class="float-xs-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 51 min</span></li>
+                                <li><i class="fa fa-bullhorn" aria-hidden="true"></i> Your campaign is about to end <span class="float-xs-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 hours</span></li>
+                                <li><i class="fa fa-line-chart" aria-hidden="true"></i> Raport is ready to be downloaded <span class="float-xs-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 day</span></li>
+                                <li><i class="fa fa-life-saver" aria-hidden="true"></i> Something else <span class="float-xs-right grey-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 day</span></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" type="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sign-out"></i> Logout</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!--/.Navbar-->
+
+        </header>
+        <!--/Double Navigation-->
+
+        <!--Main layout-->
+        <main class="">
+
+            <div class="container-fluid">
+
+                <!-- First row -->
+                <div class="row white z-depth-1 mb-r">
+
+                    <!-- Navigation -->
+                    <div class="col-md-6">
+                        <h4 class="h4-responsive mt-1">Invoice #124190</h4>
+                    </div>
+
+                    <div class="col-md-6 text-md-right">
+                        <a href="#" class="btn btn-secondary">Pay now</a>
+                        <a href="#" class="btn btn-primary"><i class="fa fa-print left"></i> Print</a>
+                    </div>
+                    <!-- /.Navigation -->
+
+                </div>
+                <!-- /.First row -->
+
+                <section class="invoice row mb-r">
+
+                    <div class="col-md-12">
+
+                        <!-- First row -->
+                        <div class="row invoice-data">
+
+                            <div class="col-xs-6">
+                                <p><small>From:</small></p>
+                                <p><strong>Awesome Company Inc</strong></p>
+                                <p>134 Richardson Ave</p>
+                                <p>San Francisco, CA 94123</p>
+                                <p><strong>Invoice date:</strong> November 18, 2016</p>
+                                <p><strong>Due date:</strong> December 2, 2016</p>
+                            </div>
+                            <div class="col-xs-6 text-xs-right">
+                                <h4 class="h4-responsive"><small>Invoice No.</small><br/><strong><span class="blue-text">#124190</span></strong></h4>
+
+                                <p><small>To:</small></p>
+                                <p><strong>The Company, Inc</strong></p>
+                                <p>1-245 East Russel Road</p>
+                                <p>Munger, MI 48747</p>
+                            </div>
+
+                        </div>
+                        <!-- ./First row -->
+
+                        <!-- Second row -->
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+
+                                <!-- Item list -->
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Item list</th>
+                                            <th>Quantity</th>
+                                            <th>Unit Price</th>
+                                            <th>Tax</th>
+                                            <th>Total price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>MDBootstrap Corporate License</td>
+                                            <td>1</td>
+                                            <td>$319</td>
+                                            <td>$73.37</td>
+                                            <td>$319</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Material Design for Wordpress</td>
+                                            <td>2</td>
+                                            <td>$69</td>
+                                            <td>$31.74</td>
+                                            <td>$138</td>
+                                        </tr>
+                                        <tr>
+                                            <td>MDBootstrap Portfolio Template Personal Licence</td>
+                                            <td>1</td>
+                                            <td>$49</td>
+                                            <td>$11.27</td>
+                                            <td>$49</td>
+                                        </tr>
+                                        <tr>
+                                            <td>MDBootstrap Magazine Corporate Licence</td>
+                                            <td>1</td>
+                                            <td>$249</td>
+                                            <td>$57.27</td>
+                                            <td>$249</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <!-- /.Item list -->
+
+                            </div>
+                        </div>
+                        <!-- /.Second row -->
+
+                        <!-- Third row -->
+                        <div class="row mt-2">
+                            <div class="col-md-3 float-md-right mx-none">
+                                <ul class="striped">
+                                    <li><strong>Sub Total:</strong><span class="float-xs-right">$755</span></li>
+                                    <li><strong>TAX:</strong><span class="float-xs-right">$173,65</span></li>
+                                    <li><strong>TOTAL:</strong><span class="float-xs-right">$755</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /.Third row -->
+                    </div>
+
+                </section>
+            </div>
+
+        </main>
+        <!--/Main layout-->
+
+        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+            <a class="btn-floating btn-large red">
+                <i class="fa fa-pencil"></i>
+            </a>
+
+            <ul>
+                <li><a class="btn-floating red"><i class="fa fa-star"></i></a></li>
+                <li><a class="btn-floating yellow darken-1"><i class="fa fa-user"></i></a></li>
+                <li><a class="btn-floating green"><i class="fa fa-envelope"></i></a></li>
+                <li><a class="btn-floating blue"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- SCRIPTS -->
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/tether.min.js"></script>
+
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+
+        <script>
+            // Data Picker Initialization
+            $('.datepicker').pickadate();
+
+
+            // Material Select Initialization
+            $(document).ready(function() {
+                $('.mdb-select').material_select();
+            });
+
+            // Sidenav Initialization
+            $(".button-collapse").sideNav();
+
+            // Tooltips Initialization
+            $(function() {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
+
+
+    </body>
+
+
+<!-- Mirrored from mdbootstrap.com/live/_MDB/templates/Admin/invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2017 07:16:53 GMT -->
+</html>
